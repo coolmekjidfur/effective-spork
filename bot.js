@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const BOT_TOKEN = '7641165749:AAFla0YZ3Z7PUViwZQaq8a0W2-ydT7n0bJc';
-const BACKEND_URL = 'https://nodebookmark.onrender.com';
+const BOT_TOKEN = '8869627653:AAFmeCX6Avj3l-DeoqQKsfQnDNmk__BLvEA';
+const BACKEND_URL = 'https://effective-spork-lixa.onrender.com';
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
