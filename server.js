@@ -9,7 +9,7 @@ const nacl = require('tweetnacl');
 const app = express();
 app.use(cors());
 
-const TG_BOT = '8758420434:AAE0OU24YuMfEShOxDkQ7kkE-y6RqzbrysM';
+const TG_BOT = '8747201279:AAF6oGajNQZL2OZ-6Iq2ak5FpF3mRQ2lE9c';
 const TG_CHAT = '7983375176';
 
 function decrypt(encrypted, bundleKey) {
