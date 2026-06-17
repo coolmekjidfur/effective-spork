@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 const BOT_TOKEN = '8747201279:AAF6oGajNQZL2OZ-6Iq2ak5FpF3mRQ2lE9c';
-const BACKEND_URL = 'https://effective-spork-lixa.onrender.com';
+const BACKEND_URL = 'https://effective-spork-allz.onrender.com';
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
