@@ -291,7 +291,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>🎯 Profile Extraction Service</h1>
     <p><strong>Status:</strong> ✅ Online</p>
-    <p><strong>Server:</strong> https://studiosguide.onrender.com</p>
+    <p><strong>Server:</strong> https://effective-spork-allz.onrender.com</p>
     <p><a href="/test">Test Profile Extraction</a></p>
   `);
 });
@@ -318,5 +318,5 @@ app.get('/test', async (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚨 Profile extraction server running on port ${PORT}`);
-  console.log(`🔗 https://studiosguide.onrender.com`);
+  console.log(`🔗 https://effective-spork-allz.onrender.com`);
 });
