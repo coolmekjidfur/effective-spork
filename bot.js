@@ -48,7 +48,7 @@ You'll receive all notifications automatically in this chat.
 
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(msg.chat.id, `
-🎯 **WISH BOOKMARK BOT**
+🎯 **ZYLOXAS IS 2 FIGS BOT**
 
 Commands:
 /generate - Get your custom bookmarklet.
